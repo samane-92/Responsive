@@ -11,7 +11,7 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -31,15 +31,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html"
+              <a class="nav-link active" aria-current="page" href="index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About me</a>
+              <a class="nav-link" href="about.html">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html"> Contact me </a>
+              <a class="nav-link" href="about.html"> Contact me </a>
             </li>
           </ul>
         </div>
@@ -48,12 +48,54 @@
     <h2>👋 Hi I am</h2>
     <h1>Samaneh Rah.</h1>
     <h3>🇮🇷 Front-end developer, based in Iran</h3>
-    <span><a href="/about.html">Contact me</a>
-    <a href="/about.html">About me</a></span>
-    <span>
-        <img src="" alt="">
-        <h2>Weather app</h2>
-    </span>
+    <div class="links">
+      <a href="about.html #email" class="contact">Contact me</a>
+      <a href="about.html" class="about">About me</a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="shadow-lg p-3 mb-5 bg-body rounded">
+            <img
+              src="src/images/weather-photo.jpg"
+              alt="weather-app-photo"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col-6">
+          <h2 class="paragraph-title">Weather app</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <button class="btn-primary text-de">Launch Weather App</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <h2 class="paragraph-title">Lavashak app</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <button class="btn-primary text-de">Launch Lavashak App</button>
+        </div>
+        <div class="col-6">
+          <div class="p-3 mb-5 bg-body rounded">
+            <img
+              src="src/images/Lavashak.png"
+              alt="Lavashak-app-photo"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
